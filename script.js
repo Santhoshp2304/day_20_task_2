@@ -6,7 +6,7 @@ async function weather() {
       `https://api.openweathermap.org/data/2.5/weather?lat=20&lon=77&appid=bea017799de33aeb106c1922c663f1db&units=metric`
     );
     let report = await response.json();
-    console.log(report);
+    // console.log(report);
 
     let container = document.createElement("div");
     container.setAttribute("class", "container");
